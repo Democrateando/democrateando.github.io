@@ -20,7 +20,9 @@ Democrateando es un espacio neutral, no se busca favorecer o desfavorecer ningú
 
 ### Crear una _issue_
 
-Procure usar un título descriptivo y conciso, además una descripción detallada de la funcionalidad o reporte que quiera agregar al proyecto.
+Procura usar un título descriptivo y en **modo imperativo**, además una descripción detallada de la funcionalidad o reporte que quieras agregar.
+
+Ejemplo de título: `Mejora la documentación de contribución`
 
 Elige la etiqueta correspondiente:
 
@@ -34,32 +36,37 @@ Finalmente elige el proyecto `Democrateando` con el estado de `Borrador` para es
 
 ### Trabajando en una _issue_
 
-Ingresa a la sección del [proyecto](https://github.com/orgs/Democrateando/projects/1), y elige del tablero una _issue_ que esté en la columna de `Por Hacer`, asígnate la _issue_ y muévela a la columna de `En Progreso`.
+Ingresa a la sección del [proyecto](https://github.com/orgs/Democrateando/projects/1), elige una _issue_ en la columna `Por Hacer`, asígnate la _issue_ y muévela a la columna `En Progreso`.
 
 ### Notación de ramas
 
-Para mayor facilidad, se recomienda usar feat/issue-number o fix/issue-number de acorde al tipo de _issue_ que se está trabajando. Ejemplo: feat/5 o fix/7.
+Para mayor facilidad, se recomienda usar la siguiente notación para las ramas según el tipo de issue:
+
+- `func/número-issue` para funcionalidades
+- `crre/número-issue` para correcciones
+- `docs/número-issue` para documentación
+
+Ejemplo: `func/5`, `crre/7`, `docs/9`
 
 ### Convención de commits
 
-Se sigue la convención de commits de [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+Se sigue la convención de commits de [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/), adaptada a español.
 
-Ejemplo de commit, que debe estar en tiempo verbal imperativo:
+Ejemplo de commit, que debe estar en **modo imperativo**: `func: agrega funcionalidad de búsqueda`
 
-```
-feat: agrega funcionalidad de búsqueda
-```
-
-La idea es que el mensaje de commit complete esta frase: "Si aplico este commit, entonces este commit..." Ejemplos:
+La idea es que el mensaje de commit complete esta frase:  
+_"Si aplico este commit, entonces este commit..."_ Ejemplos:
 
 - "... agrega una nueva consulta"
-
 - "... corrige un error en la validación"
 
-Si es necesario agregar más información, se puede usar el cuerpo del commit para explicar el cambio.
+Si necesitas dar más información, utiliza el cuerpo del commit para explicar el cambio.
 
 ### _Pull Request_
 
-Crea un _Pull Request_ con el título de la _issue_ y la descripción detallada de los cambios realizados, adicionalmente asigna la revisión al usuario `meyer-pidiache`, selecciona el proyecto `Democrateando` con el estado de `Borrador`.
+Crea un _Pull Request_ con el título de la _issue_ en modo imperativo y la descripción detallada de los cambios realizados. Asigna la revisión al usuario `meyer-pidiache`, y selecciona el proyecto `Democrateando` con el estado `Borrador`.
 
-Con lo anterior realizado, se revisará su aporte y se procederá a su integración al proyecto si se considera que cumple con los requisitos.
+Ejemplo de título de PR:  
+`Mejora la documentación de contribución`
+
+Con lo anterior realizado, se revisará tu aporte y se procederá a integrarlo al proyecto si cumple con los requisitos.
