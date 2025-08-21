@@ -19,7 +19,7 @@ npm install
 Crea la rama de la _issue_ que desea trabajar:
 
 ```bash
-git checkout -b feat/issue-number
+git checkout -b func/número-issue
 ```
 
 Y listo, ya puede hacer cambios y verlos luego de ejecutar:
